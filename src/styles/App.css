@@ -1,0 +1,161 @@
+/* App.css */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.editable-field {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.editable-field input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+.editable-field input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2px solid #333;
+}
+
+.editable-field .fa-edit,
+.editable-field .fa-check-circle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.editable-field .fa-check-circle {
+    display: none;
+}
+
+.editable-field:hover .fa-edit {
+    color: #333;
+}
+
+.editable-field:hover .fa-check-circle {
+    display: block;
+    color: #333;
+}
+
+.resume-name {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.resume-section-title {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.resume-section-content {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.resume-email:before {
+    content: "\f0e0";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+
+.resume-phone:before {
+    content: "\f095";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.footer p {
+    color: #f5f5f5;
+    margin: inherit;
+
+}
+
+.title * {
+    margin: 1rem;
+}
+
+body {
+    background-color: #666;
+}
+
+@media (min-width: 600px) {
+    .container {
+        margin: 16px;
+    }
+}
