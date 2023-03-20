@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+View Live at [reecevela.github.io/Editable-Resume](reecevela.github.io/Editable-Resume).
 
 ## Available Scripts
 
