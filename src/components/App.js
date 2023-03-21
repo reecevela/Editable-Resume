@@ -6,50 +6,50 @@ function App() {
   return (
     <div className='body'>
       <div className='container'>
-        <EditableField element="h1" text="Your Name" />
-        <EditableField element="h2" text="Contact Information" />
-        <EditableField element="p" text="123 Main Street, Anytown USA" />
-        <EditableField element="p" text="youremail@example.com" />
-        <EditableField element="p" text="123-456-7890" />
+        <EditableField element="h1" initialText="Your Name" />
+        <EditableField element="h2" initialText="Contact Information" />
+        <EditableField element="p" initialText="123 Main Street, Anytown USA" />
+        <EditableField element="p" initialText="youremail@example.com" />
+        <EditableField element="p" initialText="123-456-7890" />
 
         <div className='title'>
           <h2>Education</h2>
         </div>
-        <EditableField element="p" text="Bachelor of Science in Computer Science" />
-        <EditableField element="p" text="University of Example, Anytown USA" />
-        <EditableField element="p" text="Graduated May 20XX" />
+        <EditableField element="p" initialText="Bachelor of Science in Computer Science" />
+        <EditableField element="p" initialText="University of Example, Anytown USA" />
+        <EditableField element="p" initialText="Graduated May 20XX" />
 
         <div className='title'>
           <h2>Experience</h2>
         </div>
-        <EditableField element="h3" text="Software Engineer" />
-        <EditableField element="p" text="ABC Company, Anytown USA" />
-        <EditableField element="p" text="June 20XX - Present" />
+        <EditableField element="h3" initialText="Software Engineer" />
+        <EditableField element="p" initialText="ABC Company, Anytown USA" />
+        <EditableField element="p" initialText="June 20XX - Present" />
         <ul>
-          <EditableField element="li" text="Designed and implemented a new feature for the company's flagship product." />
-          <EditableField element="li" text="Led a team of developers to build a new microservice using Node.js and AWS." />
-          <EditableField element="li" text="Improved the performance of the company's website by optimizing the front-end code." />
+          <EditableField element="li" initialText="Designed and implemented a new feature for the company's flagship product." />
+          <EditableField element="li" initialText="Led a team of developers to build a new microservice using Node.js and AWS." />
+          <EditableField element="li" initialText="Improved the performance of the company's website by optimizing the front-end code." />
         </ul>
 
-        <EditableField element="h3" text="Software Development Intern" />
-        <EditableField element="p" text="XYZ Company, Anytown USA" />
-        <EditableField element="p" text="May 20XX - August 20XX" />
+        <EditableField element="h3" initialText="Software Development Intern" />
+        <EditableField element="p" initialText="XYZ Company, Anytown USA" />
+        <EditableField element="p" initialText="May 20XX - August 20XX" />
         <ul>
-          <EditableField element="li" text="Assisted with the development of a new mobile app using React Native." />
-          <EditableField element="li" text="Collaborated with senior developers to write automated tests using Jest." />
-          <EditableField element="li" text="Created a data visualization dashboard using D3.js and Elasticsearch." />
+          <EditableField element="li" initialText="Assisted with the development of a new mobile app using React Native." />
+          <EditableField element="li" initialText="Collaborated with senior developers to write automated tests using Jest." />
+          <EditableField element="li" initialText="Created a data visualization dashboard using D3.js and Elasticsearch." />
         </ul>
 
         <div className='title'>
           <h2>Skills</h2>
         </div>
         <ul>
-          <EditableField element="li" text="JavaScript" />
-          <EditableField element="li" text="React" />
-          <EditableField element="li" text="Node.js" />
-          <EditableField element="li" text="AWS" />
-          <EditableField element="li" text="Git" />
-          <EditableField element="li" text="Agile Development" />
+          <EditableField element="li" initialText="JavaScript" />
+          <EditableField element="li" initialText="React" />
+          <EditableField element="li" initialText="Node.js" />
+          <EditableField element="li" initialText="AWS" />
+          <EditableField element="li" initialText="Git" />
+          <EditableField element="li" initialText="Agile Development" />
         </ul>
 
       </div>
